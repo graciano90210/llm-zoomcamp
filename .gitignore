@@ -7,19 +7,24 @@ __pycache__/
 .env
 
 # Course materials (reference only, not my work)
-01-agentic-rag/
-02-vector-search/
-03-orchestration/
-04-evaluation/
-05-monitoring/
-06-best-practices/
-07-project-example/
-cohorts/
-docs/
-etc/
-images/
-after-sign-up.md
-awesome-llms.md
-project.md
-README.md
-.github/
+# Leading / anchors the pattern to the repo root
+/01-agentic-rag/
+/02-vector-search/
+/03-orchestration/
+/04-evaluation/
+/05-monitoring/
+/06-best-practices/
+/07-project-example/
+/cohorts/
+/docs/
+/etc/
+/images/
+/after-sign-up.md
+/awesome-llms.md
+/project.md
+/README.md
+/.github/
+
+# Homework: ignore downloaded models and cache
+my-homework/**/models/
+my-homework/**/__pycache__/
