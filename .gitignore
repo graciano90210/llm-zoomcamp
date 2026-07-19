@@ -28,3 +28,6 @@ __pycache__/
 # Homework: ignore downloaded models and cache
 my-homework/**/models/
 my-homework/**/__pycache__/
+
+# DuckDB files generated during workshops
+*.duckdb
